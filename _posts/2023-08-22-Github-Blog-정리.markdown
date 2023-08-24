@@ -5,6 +5,11 @@ date: 2023-08-22 14:57
 last_modified_at: 2023-08-24 13:48
 search : true
 categories: Github
+gallery:
+  - url: /images/Github-Blog-정리/1.jpg
+    image_path: /images/Github-Blog-정리
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
 ---
 
 ### Github Blog 만드는 법
@@ -16,6 +21,17 @@ New repository 생성
 꼭 사용자이름.github.io로 할 것
 Add a README file 체크
 ```
+<!-- ```yaml
+gallery:
+  - url: /images/Github-Blog-정리/1.jpg
+    image_path: /images/Github-Blog-정리/1.jpg
+    # alt: "placeholder image 1"
+    title: "Image 1 title caption"
+``` -->
+<!-- ```liquid
+{% raw %}{% include gallery caption="This is a sample gallery with **Markdown support**." %}{% endraw %}
+``` -->
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
 ### Clone
 
