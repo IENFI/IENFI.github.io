@@ -31,7 +31,11 @@ gallery:
 <!-- ```liquid
 {% raw %}{% include gallery caption="This is a sample gallery with **Markdown support**." %}{% endraw %}
 ``` -->
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+<figure class="half">
+    <a href="https://ibb.co/VBr8KGK"><img src="https://i.ibb.co/C0NFryr/1.png" alt="1" border="0"></a>
+    <a href="https://ibb.co/rmHmBhQ"><img src="https://i.ibb.co/47p7bLF/2.png" alt="2" border="0"></a>
+    <figcaption>Check README, url</figcaption>
+</figure>
 
 ### Clone
 
