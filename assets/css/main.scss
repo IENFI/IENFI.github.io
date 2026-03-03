@@ -7,14 +7,18 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 
-$d2coding-font-stack: "D2Coding", "D2Coding ligature", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$content-font-stack: "BM HANNA Air OTF", "BM Hanna Air", "BMHannaAir",
+  "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Segoe UI", Arial, sans-serif;
+$header-emphasis-font-stack: "Courier Prime", "BM HANNA Pro OTF", "BM HANNA Pro",
+  "BM Hanna Pro", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Segoe UI", Arial, sans-serif;
+$content-bold-font-stack: "BM HANNA Pro OTF", "BM HANNA Pro",
+  "BM Hanna Pro", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Segoe UI", Arial, sans-serif;
 $doc-font-size: 15;
-$sans-serif: $d2coding-font-stack;
-$global-font-family: $sans-serif;
-$header-font-family: $sans-serif;
-$caption-font-family: $sans-serif;
-$monospace: "D2Coding", "D2Coding ligature", Monaco, Consolas, "Lucida Console", monospace;
+$sans-serif: $content-font-stack;
+$global-font-family: $content-font-stack;
+$header-font-family: $content-font-stack;
+$caption-font-family: $content-font-stack;
+$monospace: "D2Coding", "D2Coding ligature", "SFMono-Regular", Menlo, Monaco, Consolas, "Lucida Console", monospace;
 
 @import "minimal-mistakes"; // main partials
 
@@ -30,10 +34,36 @@ body {
   letter-spacing: -0.02em;
 }
 
+.site-title,
+.page__title {
+  font-family: $header-emphasis-font-stack;
+  font-weight: 600;
+}
+
+.masthead__menu-item--lg {
+  font-family: $header-emphasis-font-stack;
+  font-weight: 600;
+}
+
+.breadcrumbs .current {
+  font-family: $header-emphasis-font-stack;
+  font-weight: 600;
+}
+
+.author__bio strong,
+.author__bio b {
+  font-family: $content-bold-font-stack;
+  font-weight: 600;
+}
+
 .page__content {
-  ul,
+  ul {
+    padding-inline-start: 1.35em;
+    margin-left: 0;
+  }
+
   ol {
-    padding-inline-start: 1.2em;
+    padding-inline-start: 1.75em;
     margin-left: 0;
   }
 
@@ -41,29 +71,45 @@ body {
   ul ol,
   ol ul,
   ol ol {
-    padding-inline-start: 1em;
+    padding-inline-start: 1.2em;
   }
 
   li {
     margin-bottom: 0.42em;
   }
 
+  :not(pre) > code,
+  :not(pre) > tt,
+  :not(pre) > kbd {
+    font-size: 0.95em;
+    letter-spacing: 0;
+  }
+
   h1,
   h2,
   h3 {
-    letter-spacing: -0.07em;
+    font-family: $header-emphasis-font-stack;
+    font-weight: 600;
+    letter-spacing: -0.02em;
     line-height: 0.5;
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   h2 {
-    font-size: 1.3em;
+    font-size: 1.22em;
   }
 
   h3 {
-    font-size: 1.15em;
+    font-size: 1.1em;
+  }
+
+  strong,
+  b {
+    font-family: $content-bold-font-stack;
+    font-size: 0.96em;
+    font-weight: 600;
   }
 }
