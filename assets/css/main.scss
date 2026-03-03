@@ -20,6 +20,24 @@ $header-font-family: $content-font-stack;
 $caption-font-family: $content-font-stack;
 $monospace: "D2Coding", "D2Coding ligature", "SFMono-Regular", Menlo, Monaco, Consolas, "Lucida Console", monospace;
 
+// Syntax highlighting palette (light)
+$base00: #f6f8fb;
+$base01: #edf2f7;
+$base02: #d9e2ec;
+$base03: #8a99ab;
+$base04: #5f6b7a;
+$base05: #1f2933;
+$base06: #102a43;
+$base07: #0b1f33;
+$base08: #d64550;
+$base09: #c97a16;
+$base0a: #b08800;
+$base0b: #2f855a;
+$base0c: #0f766e;
+$base0d: #2b6cb0;
+$base0e: #6b46c1;
+$base0f: #ad5a1f;
+
 @import "minimal-mistakes"; // main partials
 
 body {
