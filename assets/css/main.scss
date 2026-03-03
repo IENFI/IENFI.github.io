@@ -17,3 +17,53 @@ $caption-font-family: $sans-serif;
 $monospace: "D2Coding", "D2Coding ligature", Monaco, Consolas, "Lucida Console", monospace;
 
 @import "minimal-mistakes"; // main partials
+
+body {
+  font-size: 0.95em;
+  letter-spacing: -0.012em;
+  line-height: 1.14;
+}
+
+.page__title {
+  font-size: 1.8em;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.page__content {
+  ul,
+  ol {
+    padding-inline-start: 1.2em;
+    margin-left: 0;
+  }
+
+  ul ul,
+  ul ol,
+  ol ul,
+  ol ol {
+    padding-inline-start: 1em;
+  }
+
+  li {
+    margin-bottom: 0.42em;
+  }
+
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.07em;
+    line-height: 0.5;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  h3 {
+    font-size: 1.15em;
+  }
+}
