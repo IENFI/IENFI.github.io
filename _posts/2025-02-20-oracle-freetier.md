@@ -1,8 +1,21 @@
 ---
-title: "OCI에서 배포"
+title: "NCP에서 OCI 프리티어로 이전하고 수동 배포한 기록"
 categories:
+  - infra
+  - cloud
 tags:
-  - DevOps
+  - oci
+  - oracle-cloud
+  - ncp
+  - migration
+  - docker
+  - docker-compose
+  - ocir
+  - postgresql
+  - object-storage
+  - nginx
+  - certbot
+  - rclone
 ---
 
 서버 생성할 때 인스턴스의 이름은 서비스 이름과 동일하게 지정했다.
