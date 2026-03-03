@@ -28,6 +28,11 @@
     "concat": "^1.0.3"
   },
   "scripts": {
+    "serve": "bundle exec jekyll serve --livereload --port 4000",
+    "setup:docs": "cd docs && bundle install",
+    "serve:docs": "cd docs && (bundle check || bundle install) && bundle exec jekyll serve --config _config.yml,_config.dev.yml --livereload --port 4001",
+    "build:site": "bundle exec jekyll build",
+    "clean:site": "bundle exec jekyll clean",
     "uglify": "uglifyjs assets/js/plugins/markerwidget.js assets/js/vendor/jquery/jquery-3.4.1.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.ba-throttle-debounce.js assets/js/plugins/smooth-scroll.js assets/js/plugins/gumshoe.js assets/js/_main.js assets/js/custom/custom.js -c -m -o assets/js/main.min.js",
     "add-banner": "node banner.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
