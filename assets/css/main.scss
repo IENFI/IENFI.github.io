@@ -78,6 +78,27 @@ body {
     margin-bottom: 0.42em;
   }
 
+  p > img {
+    display: block;
+    margin-top: 1.2em !important;
+    margin-bottom: 0.25em;
+  }
+
+  li > img {
+    display: block;
+    margin-top: 1.2em !important;
+    margin-bottom: 0.25em;
+  }
+
+  p + .highlighter-rouge,
+  p + figure.highlight,
+  p + pre,
+  li > .highlighter-rouge,
+  li > figure.highlight,
+  li > pre {
+    margin-top: 0.95em !important;
+  }
+
   :not(pre) > code,
   :not(pre) > tt,
   :not(pre) > kbd {
