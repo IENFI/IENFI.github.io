@@ -3,6 +3,45 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## 안녕하세요 👋
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+이 블로그는 개발하며 배우고 고민한 내용을 차분하게 기록하는 공간입니다.
+
+---
+
+## 📌 무엇을 기록하나요?
+
+- 알고리즘 문제 풀이와 사고 과정 정리  
+- 공부한 개념을 내 언어로 다시 풀어쓴 글  
+- 프로젝트를 진행하며 겪은 고민과 회고  
+- 실제 서비스 운영 중 마주한 백엔드 · 인프라 이슈
+
+정답만 간단히 적기보다,  
+
+**왜 그런 선택을 했는지**,  
+**어디서 막혔는지**,  
+**어떻게 개선했는지**를 함께 기록하려고 합니다.
+
+---
+
+## 🔍 요즘 관심 있는 방향
+
+- 협업 시스템 설계와 동시성 문제
+- 데이터베이스 구조 설계와 쿼리 최적화
+- 배포 자동화와 서비스 운영 구조 개선
+
+최근에는 AI 에이전트 구현과 CS 기초 지식을
+조금 더 체계적으로 공부해보고 싶다는 생각을 하고 있습니다.
+
+또 개발과는 결이 다르지만,
+취미로 해석학을 천천히 공부해보는 것도 하나의 목표입니다.
+
+---
+
+## 🎯 이 블로그의 목표
+
+나중에 다시 읽어도 흐름이 보이는 기록,  
+그리고 비슷한 고민을 하는 사람에게 작은 참고가 되는 기록을 남기고 싶습니다.
+
+빠르게 소비되는 정보가 아니라,
+시간이 지나도 다시 펼쳐볼 수 있는 기록을 남기고 싶습니다.
